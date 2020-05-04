@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="MainForm">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="7" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1106" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-1118482"/>
+      <foreground color="-131585"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="430a8" class="javax.swing.JLabel" binding="firstNameLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <labelFor value="eff72"/>
+          <text value="Имя:"/>
+        </properties>
+      </component>
+      <component id="eff72" class="javax.swing.JTextArea" binding="firstNameTextArea">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="320" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+        </properties>
+      </component>
+      <component id="41141" class="javax.swing.JLabel" binding="lastNameLabel">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <labelFor value="8490e"/>
+          <text value="Фамилия:"/>
+        </properties>
+      </component>
+      <component id="8490e" class="javax.swing.JTextArea" binding="lastNameTextArea">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="320" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+        </properties>
+      </component>
+      <component id="2ac7e" class="javax.swing.JLabel" binding="patronymicLabel">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <labelFor value="592fc"/>
+          <text value="Отчество:"/>
+        </properties>
+      </component>
+      <component id="592fc" class="javax.swing.JTextArea" binding="patronymicTextArea">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="320" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+        </properties>
+      </component>
+      <vspacer id="1446e">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="1" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="a21f1">
+        <constraints>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <hspacer id="fbcca">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="2" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </hspacer>
+      <component id="d8c0f" class="javax.swing.JButton" binding="colExpButton">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <text value="Collapse"/>
+        </properties>
+      </component>
+      <component id="e8711" class="javax.swing.JButton" binding="clearButton">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <text value="Clear"/>
+        </properties>
+      </component>
+      <hspacer id="4dfae">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="9" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </hspacer>
+      <component id="bc831" class="javax.swing.JTextArea" binding="fullNameTextArea">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="2" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="320" height="20"/>
+          </grid>
+        </constraints>
+        <properties>
+          <editable value="true"/>
+          <font name="Courier New"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+      <component id="992c5" class="javax.swing.JLabel" binding="fullNameTextLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Courier New"/>
+          <labelFor value="bc831"/>
+          <text value="Full name:"/>
+          <visible value="false"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
